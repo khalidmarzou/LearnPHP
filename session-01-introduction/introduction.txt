@@ -1,0 +1,9 @@
+pour obtenir des donnees a partir de back-end
+en cominique avec js partie client avec autre language 
+dans le server like py node js and php .net.
+
+dans response en headers and body ... des infos envoie avec http request
+
+server d application , donne l url et ip et port
+
+evirenment de travail et serveur MySQL
