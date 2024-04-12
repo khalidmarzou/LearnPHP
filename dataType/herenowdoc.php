@@ -25,6 +25,5 @@
                         <li>$name</li>
                         <li>$name</li>
                         <li>$name</li>
-                        <li>$name</li>
                     </ul>
                 navbar;
