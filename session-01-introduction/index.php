@@ -7,5 +7,11 @@
 </head>
 <body>
     <h1>Session | 01 Learn PHP</h1>
+    <?php 
+        // single line coment
+        #single line comment
+        /* Multiples
+            LInes */
+    ?>
 </body>
 </html>
