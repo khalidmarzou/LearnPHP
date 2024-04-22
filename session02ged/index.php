@@ -14,7 +14,6 @@
         $isStudent = true;
         $note = 14.5;
     ?>
-    
     <header class="flex justify-center items-center h-32 bg-blue-500">
         <div class="text-3xl font-bold">M107 : Developper des sites web dynamiques</div>
     </header>

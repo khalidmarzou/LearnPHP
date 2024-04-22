@@ -36,7 +36,7 @@
     echo '<br />';
     echo 10.5 + 10.5 ; // 21 double
     echo '<br />';
-    echo (int) 10.5 + (int) 10.5 ; // 21 integer
+    echo (int) 10.5 + (int) 10.5 ; // 20 integer
     echo '<br />';
     echo (int) (10.5 + 10.5); // 21 integer
     // change type Boolean :
