@@ -27,7 +27,7 @@
                         <label for="content">Content:</label>
                         <textarea class="form-control" id="content" name="content" rows="3" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Create Blog</button>
+                    <button type="submit" class="btn btn-primary">Createeeeeee Blog</button>
                 </form>
             </div>
         </div>
