@@ -9,8 +9,8 @@
 </head>
 <body class="bg-gray-100">
     <div class="max-w-3xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
-        <div class="flex items-start mb-6 flex-col">
-            <a href="/dashboard" class="text-blue-500 text-2xl">
+        <div class="flex items-start mb-6 flex-col gap-5">
+            <a href="/dashboard" class="text-blue-500 text-2xl hover:text-blue-950">
                 <i class="fas fa-arrow-left"></i>
             </a>
             <h1 class="text-2xl font-bold ml-4">Add Intern</h1>
@@ -30,7 +30,7 @@
             </div>
             <div class="mb-4">
                 <label for="profile_picture" class="block text-gray-700 font-medium mb-2">Profile Picture</label>
-                <input type="file" id="profile_picture" name="profile_picture" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" accept="image/*">
+                <input type="file" id="profile_picture" name="profile_picture" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" accept="image/*" required>
             </div>
             <div class="mb-6">
                 <label for="field" class="block text-gray-700 font-medium mb-2">Field of Study</label>

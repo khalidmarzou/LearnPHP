@@ -8,7 +8,8 @@
         $admin = $db -> single();
         $db -> query('SELECT * FROM stagiaire');
         $stagiaires = $db -> resultSet();
-        
+        $message = $_SESSION['message'];
+        $color = $_SESSION['color'];
         require dirname(__DIR__) . '/views/espacePrivee.view.php';
         exit();
     }else{
