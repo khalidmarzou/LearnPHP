@@ -20,6 +20,8 @@
                 $passwordValid = verify_crypting($password, $heshedPassword);
                 if($passwordValid){
                     $_SESSION['login'] = $login;
+                    $_SESSION['message'] = "";
+                    $_SESSION['color'] = "";
                     header('Location: /dashboard');
                     exit();
                 }else{

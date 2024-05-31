@@ -45,6 +45,7 @@
                                 $db -> single();
                                 $filiere = $db -> single() -> intitue;
                                 echo <<<EOT
+
                                         <tr class="border-b border-gray-200 hover:bg-gray-100">
                                             <td class="py-3 px-4 text-left">{$stagiaire -> nom}</td>
                                             <td class="py-3 px-4 text-left">{$stagiaire -> prenom}</td>
@@ -53,6 +54,7 @@
                                                 <img src="{$stagiaire -> photoProfil}" alt="Profile" class="h-10 w-10 rounded-full">
                                             </td>
                                             <td class="py-3 px-4 text-left">$filiere</td>
+
                                         <form action="/dashboard/edit" method="GET">
                                             <input type="hidden" name="id" value="{$stagiaire -> idStagiaire}" />
                                             <td class="py-3 px-4 text-left">
@@ -61,6 +63,7 @@
                                                 </button>
                                             </td>
                                         </form>
+
                                         <form action="/dashboard/delete" method="GET">
                                             <input type="hidden" name="id" value="{$stagiaire -> idStagiaire}" />
                                             <td class="py-3 px-4 text-left">
@@ -70,6 +73,7 @@
                                             </td>
                                         </form>
                                         </tr>
+                                        
                                 EOT;
                             }
                         ?>
