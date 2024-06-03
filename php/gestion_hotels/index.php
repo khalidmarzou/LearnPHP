@@ -4,11 +4,11 @@
 
     $routes = [
 
-        "/"=> "controllers/listerH.php",
+        "/" => "controllers/listerH.php",
         "/reservation" => "controllers/listeReservation.php",
-        "/connection"=> "controllers/connection.php",
-        "/reservationEncours"=> "controllers/reservationEncours.php",
-        "/deconnection"=> "controllers/deconnection.php",
+        "/connection" => "controllers/connection.php",
+        "/reservationEncours" => "controllers/reservationEncours.php",
+        "/deconnection" => "controllers/deconnection.php",
         
     ];
 
